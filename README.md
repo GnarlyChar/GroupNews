@@ -5,7 +5,7 @@ A news website built with Astro, designed to provide a modern and responsive new
 > **ℹ️ Info**  
 > Astro news is my first open-source project, so there may be some bugs or issues. I’ll address them as quickly as possible.
 
-![Astro News](./src/assets/images/screenshot-astronews.png "Astro News")
+![Hustle Hare](./src/assets/images/screenshot-astronews.png "Hustle Hare")
 
 ## 🌐 Demo
 
