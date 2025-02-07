@@ -7,7 +7,7 @@ import Time04 from "~/assets/svgs/time-04.astro";
 import Calendar04 from "~/assets/svgs/calendar-04.astro";
 import Divider from "~/components/bases/divider.astro";
 import { categoriesHandler } from "~/lib/handlers/categories";
-import { authorsHandler } from "~/lib/handlers/authors";
+
 
 type Props = {
   article: CollectionEntry<"articles">;
@@ -17,7 +17,7 @@ type Props = {
 const { article, readingTime } = Astro.props;
 
 const category = categoriesHandler.oneCategory(article.data.category.id);
-const authors = authorsHandler.getAuthors(article.data.authors);
+// const authors = authorsHandler.getAuthors(article.data.authors);
 ---
 
 <section
@@ -74,7 +74,7 @@ const authors = authorsHandler.getAuthors(article.data.authors);
       </div>
       <!-- TODO: fix name, href, avatar of author -->
       <div class="flex flex-wrap gap-4">
-        {
+        <!-- {
           authors.map((author) => (
             <div class="flex items-center gap-2">
               <a href={`/authors/${author.id}`} class="flex items-center gap-2">
@@ -94,7 +94,7 @@ const authors = authorsHandler.getAuthors(article.data.authors);
               </a>
             </div>
           ))
-        }
+        } -->
       </div>
     </div>
   </div>

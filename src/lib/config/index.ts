@@ -15,6 +15,10 @@ export const SITE = {
 
 export const NAVIGATION_LINKS: Link[] = [
   {
+    href: "/categories/reselling",
+    text: "Reselling",
+  },
+  {
     href: "/categories/technology",
     text: "Technology",
   },
@@ -65,14 +69,7 @@ export const OTHER_LINKS: Link[] = [
     href: "/cookie-policy",
     text: "Cookie Policy",
   },
-  {
-    href: "https://astro-news-six.vercel.app/rss.xml",
-    text: "RSS",
-  },
-  {
-    href: "https://astro-news-six.vercel.app/sitemap-index.xml",
-    text: "Sitemap",
-  },
+
 ];
 
 export const SOCIAL_LINKS: Link[] = [
