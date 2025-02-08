@@ -24,6 +24,7 @@ export type Meta = {
   title: string;
   metaTitle: string;
   description: string;
+  keywords: string;  // <-- Add this line to include keywords
   type: "article" | "website";
   ogImage: string;
   ogImageAlt: string;

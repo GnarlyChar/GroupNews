@@ -51,6 +51,8 @@ const OGImage = new URL(meta.ogImage, Astro.url).href;
   <title>{meta.title}</title>
   <meta name="title" content={meta.metaTitle} />
   <meta name="description" content={meta.description} />
+  <meta name="keywords" content={meta.keywords}/>
+  <!-- <meta name="keywords" content={meta.keywords && meta.keywords !== "" ? meta.keywords : "default, keywords, fallback"} /> -->
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content={meta.type} />

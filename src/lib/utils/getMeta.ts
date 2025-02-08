@@ -22,6 +22,8 @@ export const getMeta = async (
         }`,
         metaTitle: capitalizeFirstLetter(collection.data.title),
         description: collection.data.description,
+        // keywords: collection.data.keywords, // <-- Added keywords here
+        keywords: collection.data.keywords ?? "no-keywords-found", // <-- Added keywords here
         ogImage: collection.data.cover.src,
         ogImageAlt: collection.data.covert_alt
           ? collection.data.covert_alt
@@ -48,6 +50,7 @@ export const getMeta = async (
         title: title,
         metaTitle: capitalizeFirstLetter(collection.data.title),
         description: collection.data.description,
+        keywords: collection.data.keywords ?? "",
         ogImage: defaultImage.src,
         ogImageAlt: SITE.title,
         type: "website",
