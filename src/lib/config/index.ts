@@ -19,29 +19,43 @@ export const NAVIGATION_LINKS: Link[] = [
     text: "Reselling",
   },
   {
-    href: "/categories/technology",
-    text: "Technology",
+    href: "/categories/bots",
+    text: "Bots",
   },
   {
-    href: "/categories/programming",
-    text: "Programming",
+    href: "/categories/tools",
+    text: "Tools",
   },
-  {
-    href: "/categories/lifestyle",
-    text: "Lifestyle",
-  },
-  {
-    href: "/categories/productivity",
-    text: "Productivity",
-  },
-  {
-    href: "/categories/health",
-    text: "Health",
-  },
-  {
-    href: "/categories/finance",
-    text: "Finance",
-  },
+  // {
+  //   href: "/categories/news-and-releases",
+  //   text: "News & Releases",
+  // },
+  
+
+  // {
+  //   href: "/categories/technology",
+  //   text: "Technology",
+  // },
+  // {
+  //   href: "/categories/programming",
+  //   text: "Programming",
+  // },
+  // {
+  //   href: "/categories/lifestyle",
+  //   text: "Lifestyle",
+  // },
+  // {
+  //   href: "/categories/productivity",
+  //   text: "Productivity",
+  // },
+  // {
+  //   href: "/categories/health",
+  //   text: "Health",
+  // },
+  // {
+  //   href: "/categories/finance",
+  //   text: "Finance",
+  // },
 ];
 
 export const OTHER_LINKS: Link[] = [
