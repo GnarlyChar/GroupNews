@@ -3,8 +3,9 @@ import type { Link } from "../types";
 export const SITE = {
   title: "Hustle Hare",
   description: "Your place to get news and info on everthing reselling",
-  author: "Mohammad Rahmani",
-  url: "https://astro-news-six.vercel.app",
+  author: "",
+  //url: "https://astro-news-six.vercel.app",
+  url: "https://hustlehare.com",
   //github: "https://github.com/Mrahmani71/astro-news",
   locale: "en-US",
   dir: "ltr",
