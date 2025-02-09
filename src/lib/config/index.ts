@@ -2,7 +2,7 @@ import type { Link } from "../types";
 
 export const SITE = {
   title: "Hustle Hare",
-  description: "A news website built with Astro",
+  description: "Your place to get news and info on everthing reselling",
   author: "Mohammad Rahmani",
   url: "https://astro-news-six.vercel.app",
   //github: "https://github.com/Mrahmani71/astro-news",
@@ -26,10 +26,10 @@ export const NAVIGATION_LINKS: Link[] = [
     href: "/categories/tools",
     text: "Tools",
   },
-  // {
-  //   href: "/categories/news-and-releases",
-  //   text: "News & Releases",
-  // },
+  {
+    href: "/categories/news-and-releases",
+    text: "News & Releases",
+  },
   
 
   // {

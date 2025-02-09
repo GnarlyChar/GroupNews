@@ -1,9 +1,9 @@
-# Astro News 📰
+# Hustle Hare 📰
 
-A news website built with Astro, designed to provide a modern and responsive news reading experience.
+Your place to get news and info on everthing reselling, designed to provide a modern and responsive news reading experience.
 
 > **ℹ️ Info**  
-> Astro news is my first open-source project, so there may be some bugs or issues. I’ll address them as quickly as possible.
+> Hustle Hare is my first open-source project, so there may be some bugs or issues. I’ll address them as quickly as possible.
 
 ![Hustle Hare](./src/assets/images/screenshot-astronews.png "Hustle Hare")
 
