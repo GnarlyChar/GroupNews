@@ -9,8 +9,10 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: SITE.url,
-  base: SITE.basePath,
+  // site: SITE.url,
+  // base: SITE.basePath,
+  site: 'https://hustlehare.com',
+  base: '/',
   markdown: {
     remarkPlugins: [readingTime, modifiedTime],
   },
