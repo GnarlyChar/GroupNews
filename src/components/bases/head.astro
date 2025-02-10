@@ -18,7 +18,8 @@ const { meta } = Astro.props;
 const isArticleMeta = (props: Props["meta"]): props is ArticleMeta =>
   props.type === "article";
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
-const OGImage = new URL(meta.ogImage, Astro.url).href;
+const OGImage = new URL(meta.ogImage || "/web-app-manifest-512x512", Astro.url).href;
+// const OGImage = new URL(meta.ogImage, Astro.url).href;
 ---
 
 <head>
@@ -32,7 +33,7 @@ const OGImage = new URL(meta.ogImage, Astro.url).href;
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="Astro News" />
+  <meta name="apple-mobile-web-app-title" content="Hustle Hare" />
   <link rel="manifest" href="/site.webmanifest" />
 
   <!-- RSS & Sitemap -->
