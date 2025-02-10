@@ -18,8 +18,8 @@ const { meta } = Astro.props;
 const isArticleMeta = (props: Props["meta"]): props is ArticleMeta =>
   props.type === "article";
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
-// const OGImage = new URL("/web-app-manifest-512x512.png", Astro.url).href;
-const OGImage = new URL(meta.ogImage, Astro.url).href;
+const OGImage = new URL("/web-app-manifest-512x512.png", Astro.site).href;
+//const OGImage = new URL(meta.ogImage, Astro.url).href;
 ---
 <!-- This is where og image is -->
 <head>
